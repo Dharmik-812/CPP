@@ -18,11 +18,12 @@ int main(int argc, char const *argv[])
 
         if (i == row)
         {
-            for (size_t k = 0; k < 2 * row - 2; k++)
+           for (int j = 1; j <= 2 * i - 3; j++)
             {
                 printf("*");
-                /* code */
             }
+
+            printf("*");
         }
         else if (i > 1)
         {
@@ -30,7 +31,7 @@ int main(int argc, char const *argv[])
             for (int j = 1; j <= 2 * i - 3; j++)
             {
                 printf(" ");
-                /* code */
+                
             }
 
             printf("*");

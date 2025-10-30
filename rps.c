@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     printf("enter your name before that tell me how many chracter your name has \n ");
     scanf("%d", &n);
     getchar();
-    ;
+    
     name = (char *)malloc((n + 1) * sizeof(char));
     printf("now enter your name \n");
     fgets(name, (n + 1) * sizeof(char), stdin);
